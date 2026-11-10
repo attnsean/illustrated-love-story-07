@@ -183,7 +183,7 @@ export async function resolveProjectData(slug?: string, host?: string, guestName
   };
 
   try {
-    let projectId = process.env.NEXT_PUBLIC_PROJECT_ID || 'fc4a817c-0f4b-4f0a-8e92-574e2921d27d' || '';
+    let projectId = process.env.NEXT_PUBLIC_PROJECT_ID || '6de7e9ac-db0e-4e02-ab3d-bf1c7ef12d90' || '';
     if (projectId === 'undefined') {
       projectId = 'fc4a817c-0f4b-4f0a-8e92-574e2921d27d';
     }
