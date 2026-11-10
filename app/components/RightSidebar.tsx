@@ -110,10 +110,10 @@ function ScrollAnimatedTitle({ lines, className = '' }: ScrollAnimatedTitleProps
 
 export default function RightSidebar({ guestName, guest, project, events, wishes: initialWishes, stats, existingRsvp }: Props) {
   // Couple Info
-  const brideNickname = project?.bride_nickname || "Zahra";
-  const groomNickname = project?.groom_nickname || "Kamil";
-  const brideFull = project?.bride_name || "Zahra Fitriani";
-  const groomFull = project?.groom_name || "Kamil Maulana";
+  const brideNickname = project?.bride_nickname || "Natalie";
+  const groomNickname = project?.groom_nickname || "Marvel";
+  const brideFull = project?.bride_name || "Natalie C";
+  const groomFull = project?.groom_name || "Marvel A";
 
   const defaultBrideFather = "Bpk. H. Faisal Bahri";
   const defaultBrideMother = "Ibu Hj. Aminah Bahri";
