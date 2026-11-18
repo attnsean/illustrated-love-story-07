@@ -1693,7 +1693,7 @@ export default function RightSidebar({ guestName, guest, project, events, wishes
                   setRsvpStatus("attending");
                 }}
                 disabled={hasSubmittedRsvp}
-                className="absolute left-[32.0%] top-[29.5%] w-[45%] h-[5.5%] flex items-center cursor-pointer group rounded-md transition-colors hover:bg-neutral-100/40"
+                className="absolute left-[32.0%] top-[14.8%] w-[45%] h-[5.2%] flex items-center cursor-pointer group rounded-md transition-colors hover:bg-neutral-100/40"
                 title="Pilih Hadir (Yes!)"
               >
                 <span className="sr-only">Hadir (Yes!)</span>
@@ -1707,7 +1707,7 @@ export default function RightSidebar({ guestName, guest, project, events, wishes
                     animate={{ scale: 1, opacity: 1, rotate: 0 }}
                     exit={{ scale: 0, opacity: 0 }}
                     transition={{ type: "spring", stiffness: 450, damping: 22 }}
-                    className="absolute left-[34.0%] top-[30.3%] w-[5.0%] h-[4.1%] pointer-events-none flex items-center justify-center"
+                    className="absolute left-[35.7%] top-[17.2%] -translate-x-1/2 -translate-y-1/2 w-[4.6%] h-[2.8%] pointer-events-none flex items-center justify-center"
                   >
                     <svg viewBox="0 0 28 24" fill="none" className="w-full h-full drop-shadow-xs">
                       <path 
@@ -1731,7 +1731,7 @@ export default function RightSidebar({ guestName, guest, project, events, wishes
                   setRsvpStatus("not_attending");
                 }}
                 disabled={hasSubmittedRsvp}
-                className="absolute left-[32.0%] top-[36.2%] w-[55%] h-[5.5%] flex items-center cursor-pointer group rounded-md transition-colors hover:bg-neutral-100/40"
+                className="absolute left-[32.0%] top-[20.2%] w-[55%] h-[5.2%] flex items-center cursor-pointer group rounded-md transition-colors hover:bg-neutral-100/40"
                 title="Pilih Tidak Hadir (Sorry, can't make it)"
               >
                 <span className="sr-only">Tidak Hadir (Sorry, can't make it)</span>
@@ -1745,7 +1745,7 @@ export default function RightSidebar({ guestName, guest, project, events, wishes
                     animate={{ scale: 1, opacity: 1, rotate: 0 }}
                     exit={{ scale: 0, opacity: 0 }}
                     transition={{ type: "spring", stiffness: 450, damping: 22 }}
-                    className="absolute left-[34.0%] top-[37.0%] w-[5.0%] h-[4.1%] pointer-events-none flex items-center justify-center"
+                    className="absolute left-[35.7%] top-[22.55%] -translate-x-1/2 -translate-y-1/2 w-[4.6%] h-[2.8%] pointer-events-none flex items-center justify-center"
                   >
                     <svg viewBox="0 0 28 24" fill="none" className="w-full h-full drop-shadow-xs">
                       <path 
